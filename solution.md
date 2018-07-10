@@ -82,8 +82,6 @@ e8270fb475763bc8d855cfe45ed98060988c1bdcad2ffc8364f783c98999a208
 
 
 ```python
-# Exercise 7.1
-
 from io import BytesIO
 
 from block import Block, Proof
@@ -139,7 +137,8 @@ print(proof)
 
 
 ```python
-from block import Block 
+from block import Block
+from helper import merkle_path
 
 class Block(Block):
     
